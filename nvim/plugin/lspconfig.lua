@@ -38,6 +38,15 @@ vim.lsp.config("cssls", {
   },
 })
 
+vim.lsp.config("emmet_language_server", {
+  init_options = {
+    includeLanguages = {
+      javascriptreact = "html",
+      typescriptreact = "html",
+    },
+  },
+})
+
 vim.lsp.document_color.enable(true, { bufnr = 0 }, { style = "virtual" })
 
 vim.diagnostic.config {

@@ -103,7 +103,6 @@ require "mason-lspconfig".setup {
     "rust_analyzer",
     "tailwindcss",
     "vtsls",
-    "vue_ls",
   },
 }
 
